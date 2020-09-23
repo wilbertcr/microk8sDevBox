@@ -1,2 +1,5 @@
 ### Vagrant ###
 .vagrant/
+
+### Ubuntu Logfile ###
+ubuntu-xenial-16.04-cloutimg-console.log
