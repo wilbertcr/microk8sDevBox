@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
 
     microk8sbox.vm.provider "virtualbox" do |vb|
       vb.name = "microk8sbox"
-      vb.memory = 4096
-      vb.cpus = 2     
+      vb.memory = 8096
+      vb.cpus = 6     
     end
         
     microk8sbox.vm.provision "shell", path: "provision_script.sh" 
