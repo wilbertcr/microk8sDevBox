@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
     microk8sbox.vm.network "public_network", 
       use_dhcp_assigned_default_route: true
     microk8sbox.vm.boot_timeout = 6000
-    microk8sbox.vm.disk :disk, size: "10GB", primary: true
+    microk8sbox.vm.disk :disk, size: "40GB", primary: true
 
     microk8sbox.vm.provider "virtualbox" do |vb|
       vb.name = "microk8sbox"
